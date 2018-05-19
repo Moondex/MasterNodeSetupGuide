@@ -28,7 +28,7 @@
 
 ### * Step One: Pay __EXACTLY__ 2500 MDEX to yourself
 
-Make sure you have a little more than 2500 MDEX in your balance. It can just be 2501 MDEX. 
+Make sure you have a little more than 2500 MDEX in your balance. It can just be 2501 MDEX.
 
 1. Go to File -> Receiving Addresses
 
@@ -56,7 +56,7 @@ chmod 740 moondexcoin_mn.sh
 
 ```
 
-Grab a tea because it will take some time. Wait until the following is printed to the console: `Job completed successfully`. It will also print masternode private key as: `Masternode private key:`. 
+Grab a tea because it will take some time. Wait until the following is printed to the console: `Job completed successfully`. It will also print masternode private key as: `Masternode private key:`.
 
 Copy that somewhere, you will use it later.
 
@@ -107,3 +107,47 @@ Now you should see your masternode as `PRE_ENABLED` or `ENABLED`
 If so, you are all set. It will start getting rewards in around 24 hours.
 
 Happy Collecting your Masternode Rewards!
+
+## Reset VPS Wallet
+
+If the VPS wallet fails to sync, you can run the commands below to reset it:
+
+```
+cd /root
+
+apt-get install wget -y
+
+wget https://raw.githubusercontent.com/Moondex/MasterNodeSetupGuide/master/reset_vps_wallet.sh
+
+chmod 740 reset_vps_wallet.sh
+
+./reset_vps_wallet.sh
+
+```
+
+Then run
+
+`~/moondex/moondex-cli masternode status`
+
+You should get "status": "Not capable masternode: Masternode in NEW_START_REQUIRED state" or "status": "Masternode successfully started".
+
+If not, you will have to wait for the blockchain to be fully synced.
+
+Go to your wallet on PC/Mac to restart the node.
+
+## Show masternode status
+
+Run the following commands to show the status of masternode
+
+```
+cd /root
+
+apt-get install wget -y
+
+wget https://raw.githubusercontent.com/Moondex/MasterNodeSetupGuide/master/check_node.sh
+
+chmod 740 check_node.sh
+
+./check_node.sh
+
+```
