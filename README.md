@@ -8,7 +8,7 @@
         - [What should I do if I get "No Block Source Available" error from my wallet?](#what-should-i-do-if-i-get-no-block-source-available-error-from-my-wallet)
         - [Do you have a sample moondex.conf for the PC Wallet?](#do-you-have-a-sample-moondexconf-for-the-pc-wallet)
         - [Do you have a sample moondex.conf for the VPS ?](#do-you-have-a-sample-moondexconf-for-the-vps)
-        - [My masternode changed to EXPIRED, what should I do?](#my-masternode-changed-to-expired--what-should-i-do)
+        - [My masternode was changed to EXPIRED or NEW_START_REQUIRED, what should I do?](#my-masternode-was-changed-to-expired-or-new-start-required--what-should-i-do)
     - [Trouble shooting](#trouble-shooting)
         - [Install mnchecker](#install-mnchecker)
         - [Reset VPS Wallet](#reset-vps-wallet)
@@ -86,7 +86,7 @@ masternode=1
 masternodeprivkey=YOUR_PRIVATE_KEY
 ```
 ---
-### My masternode changed to EXPIRED, what should I do?
+### My masternode was changed to EXPIRED or NEW_START_REQUIRED, what should I do?
 
 First, it can just an issue of your PC wallet not synced yet. Simply close the wallet and reopen, wait for it to be synced and check your masternode status again.
 
