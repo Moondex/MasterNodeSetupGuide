@@ -85,7 +85,7 @@ maxconnections=256
 masternode=1
 masternodeprivkey=YOUR_PRIVATE_KEY
 ```
-
+---
 ### My masternode changed to EXPIRED, what should I do?
 
 First, it can just an issue of your PC wallet not synced yet. Simply close the wallet and reopen, wait for it to be synced and check your masternode status again.
