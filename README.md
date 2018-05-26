@@ -6,7 +6,9 @@
     - [MasterNodeSetupGuide](#masternodesetupguide)
     - [FAQ](#faq)
         - [What should I do if I get "No Block Source Available" error from my wallet?](#what-should-i-do-if-i-get-no-block-source-available-error-from-my-wallet)
-        - [Do you have sample moondex.conf for the PC Wallet?](#do-you-have-sample-moondexconf-for-the-pc-wallet)
+        - [Do you have a sample moondex.conf for the PC Wallet?](#do-you-have-a-sample-moondexconf-for-the-pc-wallet)
+        - [Do you have a sample moondex.conf for the VPS ?](#do-you-have-a-sample-moondexconf-for-the-vps)
+        - [My masternode changed to "EXPIRED", what should I do?](#my-masternode-changed-to-expired--what-should-i-do)
     - [Trouble shooting](#trouble-shooting)
         - [Install mnchecker](#install-mnchecker)
         - [Reset VPS Wallet](#reset-vps-wallet)
@@ -14,7 +16,7 @@
 
 <!-- /TOC -->
 
----
+
 ## MasterNodeSetupGuide
 A guide to help you setup masternode for MoonDEX:
 
@@ -22,7 +24,7 @@ https://github.com/Moondex/MasterNodeSetupGuide/blob/master/Ubuntu_Linux.md
 
 ---
 ## FAQ
----
+
 ### What should I do if I get "No Block Source Available" error from my wallet?
 
 Add the nodes below into your moondex.conf file and restart the wallet will fix the issue:
@@ -60,13 +62,41 @@ addnode=207.148.104.192:8906
 Alternatively you can open Tools -> Debug console from your wallet and manually add those nodes.
 
 ---
-### Do you have sample moondex.conf for the PC Wallet?
+### Do you have a sample moondex.conf for the PC Wallet?
 
 For the PC Wallet, you normally do not need to change the moondex.conf. If the wallet fails to sync, you can have a check at the above [fix](#what-should-i-do-if-i-get-no-block-source-available-error-from-my-wallet) 
 
 ---
-## Trouble shooting
+### Do you have a sample moondex.conf for the VPS ?
+
+Yes, please find it below:
+
+```
+rpcuser=YOUR_RPC_USER_NAME
+rpcpassword=YOUR_RPC_PASSWORD
+rpcallowip=127.0.0.1
+server=1
+daemon=1
+listen=1
+rpcport=8960
+port=8906
+externalip=YOUR_VPS_IP
+maxconnections=256
+masternode=1
+masternodeprivkey=YOUR_PRIVATE_KEY
+```
+
+### My masternode changed to "EXPIRED", what should I do?
+
+First, it can just an issue of your PC wallet not synced yet. Simply close the wallet and reopen, wait for it to be synced and check your masternode status again.
+
+If it still says "EXPIRED", try click on "Start all" to start it.
+
+If the problem stil exists, it could be the problems with your VPS. Login to your VPS and run the [reset script](#reset-vps-wallet)
+
 ---
+## Trouble shooting
+
 
 ### Install mnchecker
 
