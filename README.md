@@ -1,24 +1,5 @@
-# MoonDEX Coin Guide
-
-<!-- TOC -->
-
-- [MoonDEX Coin Guide](#moondex-coin-guide)
-    - [MasterNodeSetupGuide](#masternodesetupguide)
-    - [FAQ](#faq)
-        - [What should I do if I get "No Block Source Available" error from my wallet?](#what-should-i-do-if-i-get-no-block-source-available-error-from-my-wallet)
-        - [Do you have a sample moondex.conf for the PC Wallet?](#do-you-have-a-sample-moondexconf-for-the-pc-wallet)
-        - [Do you have a sample moondex.conf for the VPS ?](#do-you-have-a-sample-moondexconf-for-the-vps)
-        - [My masternode was changed to EXPIRED or NEW_START_REQUIRED, what should I do?](#my-masternode-was-changed-to-expired-or-new-start-required--what-should-i-do)
-    - [Trouble shooting](#trouble-shooting)
-        - [Install mnchecker](#install-mnchecker)
-        - [Reset VPS Wallet](#reset-vps-wallet)
-        - [Show masternode status](#show-masternode-status)
-
-<!-- /TOC -->
-
-
-## MasterNodeSetupGuide
-A guide to help you setup masternode for MoonDEX:
+# MasterNode Setup Guide
+Guide to help you setup an MDEX coin masternode:
 https://github.com/click2install/moondex
 
 ---
