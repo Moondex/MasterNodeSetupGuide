@@ -1,4 +1,4 @@
-# MasterNode Setup Guide
+# MoonDEX Masternode Setup Guide
 Guide to help you setup an MDEX coin masternode:
 https://github.com/click2install/moondex
 
@@ -25,7 +25,7 @@ addnode=45.76.36.17:8906
 addnode=188.40.174.163:8906
 ```
 
-Alternatively you can open Tools -> Debug console from your wallet and manually add those nodes using this format with the above list of addresses or the address of any working masternode:
+Alternatively you can open the **Tools -> Debug console** from your GUI wallet and manually add those nodes using this format with the above list of addresses or the address of any working masternode:
 ```
 addnode 140.82.48.96:8906 onetry
 ```
