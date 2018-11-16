@@ -1,7 +1,7 @@
 
 
-# Install MoonDEX Masternode on Ubuntu VPS
-
+# Install MoonDEX Masternode on Ubuntu VPS (DEPRICATED)
+As of November 2018, the below instructions will not work due to changes in the install script.  This file is being kept for archival purposes.
 
 ## VPS Requirements:
 - LINUX VPS Ubuntu 16.04 (recommend using this version 64bits)
