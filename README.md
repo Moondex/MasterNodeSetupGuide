@@ -1,6 +1,7 @@
 # MoonDEX Masternode Setup Guide
 
-Step 1 : Make sure you have a VPS with Ubuntu 16.04 available and you are logged in as use root.
+Step 1 : Make sure you have a VPS with Ubuntu 16.04 available and you are logged in as user root.
+
 Step 2 : Run commands :
 
 wget https://raw.githubusercontent.com/Moondex/moondex_sentinel/master/moondexcoin_mn.sh
