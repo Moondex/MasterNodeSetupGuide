@@ -2,7 +2,7 @@
 
 echo ""
 echo "=================================================================="
-echo "Updating MoonDEX VPS Masternode on Ubuntu 16"
+echo "Updating MoonDEX VPS Masternode on Ubuntu 18"
 echo "Please wait..."
 echo "=================================================================="
 echo ""
