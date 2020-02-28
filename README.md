@@ -1,6 +1,13 @@
 # MoonDEX Masternode Setup Guide
-Guide to help you setup an MDEX coin masternode:
-https://github.com/click2install/moondex
+
+Step 1 : Make sure you have a VPS with Ubuntu 16.04 available and you are logged in as use root.
+Step 2 : Run commands :
+
+wget https://raw.githubusercontent.com/Moondex/moondex_sentinel/master/moondexcoin_mn.sh
+chmod +x moondexcoin_mn.sh
+./moondexcoin_mn.sh 
+
+Follow the instructions on your screen.
 
 ---
 ## FAQ
