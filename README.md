@@ -2,7 +2,9 @@
 
 Step 1 : Make sure you have a VPS with Ubuntu 16.04 available and you are logged in as user root.
 
-Step 2 : Run commands :
+Step 2 : Run commands ( As user root ) :
+
+cd /root
 
 wget https://raw.githubusercontent.com/Moondex/moondex_sentinel/master/moondexcoin_mn.sh
 
@@ -15,7 +17,9 @@ Follow the instructions on your screen.
 ---
 # MoonDEX Masternode upgrade Guide for Ubuntu 16.04
 
-Step 1 : Run commands :
+Step 1 : Run commands ( As user root ) :
+
+cd /root
 
 wget https://raw.githubusercontent.com/Moondex/MasterNodeSetupGuide/master/upgrade-ubuntu16.sh
 
