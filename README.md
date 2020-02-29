@@ -13,6 +13,19 @@ chmod +x moondexcoin_mn.sh
 Follow the instructions on your screen.
 
 ---
+# MoonDEX Masternode upgrade Guide for Ubuntu 16.04
+
+Step 1 : Run commands :
+
+wget https://raw.githubusercontent.com/Moondex/MasterNodeSetupGuide/master/upgrade-ubuntu16.sh
+
+chmod +x upgrade-ubuntu16.sh
+
+./upgrade-ubuntu16.sh 
+
+Follow the instructions on your screen.
+
+---
 ## FAQ
 
 ### Do you have a sample moondex.conf for the PC Wallet?
