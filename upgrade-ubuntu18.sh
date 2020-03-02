@@ -7,7 +7,7 @@ echo "Please wait..."
 echo "=================================================================="
 echo ""
 
-WALLET_VERSION='3.0'
+WALLET_VERSION='3.1'
 
 ~/moondex/moondex-cli stop
 sleep 20
