@@ -7,11 +7,11 @@ echo "Please wait..."
 echo "=================================================================="
 echo ""
 
-WALLET_VERSION='3.0'
+WALLET_VERSION='3.1'
 
 ~/moondex/moondex-cli stop
 sleep 20
-wget https://github.com/Moondex/MoonDEXCoin/releases/download/3.0/ubuntu16-linux-no-gui-v${WALLET_VERSION}.tar.gz
+wget https://github.com/Moondex/MoonDEXCoin/releases/download/3.1/ubuntu16-linux-no-gui-v${WALLET_VERSION}.tar.gz
 tar -zxvf ubuntu16-linux-no-gui-v${WALLET_VERSION}.tar.gz -C moondex
 ~/moondex/moondexd
 echo "Syncing blockchain..."
